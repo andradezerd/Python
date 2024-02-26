@@ -5,4 +5,4 @@ dia=input ('Dia = ')
 mes=input ('Mês = ')
 ano=input ('Ano = ')
 
-print('Olá', nome, 'você nasceu no dia', dia, 'do mês de', mes, 'no ano de', ano)
+print (f'Olá {nome} você nasceu no dia {dia} do mês de {mes} no ano de {ano}')

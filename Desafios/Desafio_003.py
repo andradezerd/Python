@@ -4,4 +4,4 @@ num1=int(input ('Insira seu primeiro número = '))
 num2=int(input ('Insira seu segundo número = '))
 resultado = num1 + num2
 
-print ('A soma vale', resultado)
+print (f'A soma vale {resultado}')
