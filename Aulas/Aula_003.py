@@ -1,5 +1,5 @@
-num1=int(input('Digite um valor: '))
-num2=int(input('Digite um novo valor: '))
+num1 = int(input('Digite um valor: '))
+num2 = int(input('Digite um novo valor: '))
 
 resultado = num1 + num2
 
