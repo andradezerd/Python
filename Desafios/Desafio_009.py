@@ -1,0 +1,26 @@
+# Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada
+
+valor = int(input('Digite seu número inteiro: '))
+
+x1 = (valor * 1)
+x2 = (valor * 2)
+x3 = (valor * 3)
+x4 = (valor * 4)
+x5 = (valor * 5)
+x6 = (valor * 6)
+x7 = (valor * 7)
+x8 = (valor * 8)
+x9 = (valor * 9)
+x10 = (valor * 10)
+
+print (f'TABUADA DO {valor}:')
+print (f'{valor} X 1 = {x1}') 
+print (f'{valor} X 2 = {x2}') 
+print (f'{valor} X 3 = {x3}') 
+print (f'{valor} X 4 = {x4}') 
+print (f'{valor} X 5 = {x5}') 
+print (f'{valor} X 6 = {x6}') 
+print (f'{valor} X 7 = {x7}') 
+print (f'{valor} X 8 = {x8}') 
+print (f'{valor} X 9 = {x9}') 
+print (f'{valor} X 10 = {x10}')
