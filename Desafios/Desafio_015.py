@@ -2,15 +2,15 @@
 # E a quantidade de dias pelos quais ele foi alugado
 # Calcule o preço a pagar, sabendo que o carro custa R$60 por dia e R$0,15 por Km rodado.
 
-alugadokm = float(input('Quantos KMs foram percorridos com o carro alugado? '))
-alugadodias = int(input('Quantos DIAS ficou com o carro alugado? '))
+alugado_km = float(input('Quantos KMs foram percorridos com o carro alugado? '))
+alugado_dias = int(input('Quantos DIAS ficou com o carro alugado? '))
 
-precokm = alugadokm * 0.15
-precodias =  alugadodias * 60
+preco_km = alugado_km * 0.15
+preco_dias =  alugado_dias * 60
 
-alugadopreco = precokm + precodias
+alugado_preco = preco_km + preco_dias
 
-print (f'Seu VALOR TOTAL a pagar pelo aluguel do carro é de: R${alugadopreco:.2f}')
-print (f'R${precodias} pelos DIAS alugados')
-print (f'R${precokm} pela QUILOMETRAGEM percorridas ')
+print (f'Seu VALOR TOTAL a pagar pelo aluguel do carro é de: R${alugado_preco:.2f}')
+print (f'R${preco_dias} pelos DIAS alugados')
+print (f'R${preco_km} pela QUILOMETRAGEM percorridas ')
 
