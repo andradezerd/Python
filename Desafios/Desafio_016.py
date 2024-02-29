@@ -3,6 +3,6 @@
 
 import math
 
-numero = float(input('Digite um número REAL: '))
+numero = float(input('\nDigite um número REAL: '))
 
 print ('A parte INTEIRA do seu número é',math.trunc(numero) )

@@ -2,8 +2,8 @@
 # Calcule a sua área e a quantidade de tinta necessária para pintá-la 
 # Sabendo que cada litro de tinta, pinta uma área de 2m²
 
-largura = float(input('Qual a LARGURA da sua parede em METROS? '))
-altura = float(input('Qual a ALTURA da sua parede em METROS'))
+largura = float(input('\nQual a LARGURA da sua parede em METROS? '))
+altura = float(input('Qual a ALTURA da sua parede em METROS? '))
 area = (largura * altura)
 tinta = (area / 2)
 

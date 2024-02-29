@@ -1,6 +1,6 @@
 # Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada
 
-valor = int(input('Digite seu número inteiro: '))
+valor = int(input('\nDigite seu número inteiro: '))
 
 x1 = (valor * 1)
 x2 = (valor * 2)

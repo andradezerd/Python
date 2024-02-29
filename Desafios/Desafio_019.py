@@ -3,9 +3,9 @@
 
 import random
 
-print ('VAMOS SORTEAR UM DOS SEUS QUATRO ALUNOS')
+print ('\nVAMOS SORTEAR UM DOS SEUS QUATRO ALUNOS')
 
-aluno1 = str(input('Primeiro aluno: '))
+aluno1 = str(input('\nPrimeiro aluno: '))
 aluno2 = str(input('Segundo aluno: '))
 aluno3 = str(input('Terceiro aluno: '))
 aluno4 = str(input('Quarto aluno: '))

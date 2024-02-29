@@ -3,7 +3,7 @@
 
 import math
 
-angulo = float(input('Informe um ângulo: '))
+angulo = float(input('\nInforme um ângulo: '))
 
 rad = math.radians(angulo)
 

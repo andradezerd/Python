@@ -8,4 +8,3 @@ divi = num1 // num2
 elev = num1 ** num2
 
 print(f'A soma é {soma}, o produto é {mult} e a divisão é {div}',end=' ')
-print(f'Divisão inteira é {divi} e a potência é {elev}')

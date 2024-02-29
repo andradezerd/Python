@@ -4,7 +4,7 @@
 
 import math
 
-cateto_oposto = float(input('Informe o comprimento do cateto oposto: '))
+cateto_oposto = float(input('\nInforme o comprimento do cateto oposto: '))
 cateto_adjacente = float(input('Informe o comprimento do cateto adjacente: '))
 
 hipotenusa = math.hypot(cateto_oposto, cateto_adjacente)

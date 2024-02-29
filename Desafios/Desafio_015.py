@@ -2,7 +2,7 @@
 # E a quantidade de dias pelos quais ele foi alugado
 # Calcule o preço a pagar, sabendo que o carro custa R$60 por dia e R$0,15 por Km rodado.
 
-alugado_km = float(input('Quantos KMs foram percorridos com o carro alugado? '))
+alugado_km = float(input('\nQuantos KMs foram percorridos com o carro alugado? '))
 alugado_dias = int(input('Quantos DIAS ficou com o carro alugado? '))
 
 preco_km = alugado_km * 0.15

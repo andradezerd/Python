@@ -1,6 +1,6 @@
 # Crie um script Python que leia o dia, o mês e o ano de nascimento de uma pessoa em mostre uma mensagem com a data formatada
 
-nome = input ('Digite seu nome = ')
+nome = input ('\nDigite seu nome = ')
 dia = input ('Dia = ')
 mes = input ('Mês = ')
 ano = input ('Ano = ')
