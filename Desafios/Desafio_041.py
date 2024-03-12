@@ -11,7 +11,7 @@ ano = date.today().year
 nasc = int(input('\nDigite o ano de nascimento do atleta: '))
 idade = ano - nasc
 
-print (f'\nO atleta tem {idade} anos.')
+print (f'\nO atleta tem {idade} anos')
 
 if idade <= 9:
     print ('Categoria: MIRIM')

@@ -4,13 +4,13 @@
 # Seu programa também deverá mostrar o tempo que falta ou que passou do prazo.
 
 from datetime import date
-atual = date.today().year
+ano = date.today().year
 
 nascimento = int(input('\nDigite o seu ano de nascimento: '))
-idade = atual - nascimento
+idade = ano - nascimento
 
 if idade == 18:
-    print ('\nEstá no ano de se alistar')
+    print ('\nEstá no ano de se alistar.')
 
 elif idade < 18:
     saldo = 18 - idade
@@ -18,4 +18,5 @@ elif idade < 18:
 
 elif idade > 18:
     saldo = idade - 18
-    print (f'\nVocê já deveria ter se alistado há {saldo} anos')
+    print (f'\nVocê já deveria ter se alistado há {saldo} anos.')
+

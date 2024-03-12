@@ -1,3 +1,3 @@
-valor = (input('Digite algo: '))
+valor = (input('\nDigite algo: '))
 
 print (type(valor))

@@ -12,11 +12,11 @@ triangulo = reta1 < reta2 + reta3 and reta2 < reta1 + reta3 and reta3 < reta1 + 
 if triangulo == True:
     print('\nÉ um triângulo! E é um triângulo ',end='')
     if reta1 != reta2 and reta2 != reta3 and reta3 !=reta1:
-        print('ESCALENO, todos lados são diferentes.')
+        print('ESCALENO, pois todos lados são diferentes.')
     elif reta1 == reta2 == reta3:
-        print ('EQUILÁTERO, todos os lados são iguais.')
+        print ('EQUILÁTERO, pois todos os lados são iguais.')
     else:
-        print ('ISÓSCELES, dois lados são iguais e um é diferente.')
+        print ('ISÓSCELES, pois dois lados são iguais e um é diferente.')
 
 else:
     print('\nNão é um triângulo')
