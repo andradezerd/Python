@@ -27,4 +27,4 @@ for pessoas in range (1, 5):
 media_idade= soma_idade / 4
 print (f'\nA média de idade das quatro pessoas é de {media_idade}')
 print (f'O homem mais velho tem {maior_idade_homem} anos e se chama {nome_homem_velho}')
-print (f'E são {tot_mulher20} mulheres que tem menos de 20 anos')
+print (f'E {tot_mulher20} mulheres tem menos de 20 anos')

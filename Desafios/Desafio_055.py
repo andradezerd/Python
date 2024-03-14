@@ -10,5 +10,6 @@ for pessoas in range (1, 6):
             maior = peso
         if peso < menor:
             menor = peso
+            
 print (f'\nO MAIOR peso lido foi de {maior} KG')
 print (f'\nO MENOR peso lido foi de {menor} KG')
