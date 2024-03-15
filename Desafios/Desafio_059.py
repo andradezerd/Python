@@ -21,10 +21,10 @@ while escolha != 5:
     escolha = int(input('\nEscolha uma função entre [1] e [5]: '))
     if escolha == 1:
         somar = num1 + num2
-        print (f'\nA soma entre {num1} e {num2} é {somar}')
+        print (f'\nA soma entre {num1} e {num2} resulta em {somar}')
     elif escolha == 2:
         multiplicar = num1 * num2
-        print (f'\nA multiplicação entre {num1} e {num2} é {multiplicar}')
+        print (f'\nA multiplicação entre {num1} e {num2} resulta em {multiplicar}')
     elif escolha == 3:
         if num1 > num2:
             print (f'\n{num1} é MAIOR do que {num2}')
