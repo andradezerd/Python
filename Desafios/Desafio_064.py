@@ -11,4 +11,4 @@ while num != 999:
 Para parar utilize [999]: '''))
     contador += 1
     soma += num
-print (f'Você digitou {contador-1} números e a soma entre eles foi de {soma-999}')
+print (f'\nVocê digitou {contador-1} números e a soma entre eles foi de {soma-999}')

@@ -14,4 +14,4 @@ while count <= 10:
     print (f'{termo} -> ', end='')
     termo += razao
     count += 1
-print ('Fim')
+print ('Final da PROGRESSÃO ARITMÉTICA')

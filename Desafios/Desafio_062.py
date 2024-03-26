@@ -18,7 +18,5 @@ while novos_termos != 0:
         count += 1
     print ('PAUSA')
     novos_termos = int(input('Quantos termos você quer mostrar mais? '))
-print (f'\nPROGRESSÃO FINALIZA! {total} termos foram mostrados')
 
-
-
+print (f'\nPROGRESSÃO FINALIZADA! {total} termos foram mostrados')
