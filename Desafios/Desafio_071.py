@@ -15,7 +15,8 @@ while True:
         total -= cedula
         tot_cedula += 1
     else:
-        print (f'Total de {tot_cedula} cédulas de R${cedula}')
+        if tot_cedula > 0:
+            print (f'Total de {tot_cedula} cédulas de R${cedula}')
         if cedula == 50:
             cedula = 20
         elif cedula == 20:
